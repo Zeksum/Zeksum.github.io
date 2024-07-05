@@ -9634,3 +9634,33 @@ ul.ascii > li > ul > li:last-child > ul > li:last-child > ul > li:last-child > u
   content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0└──\00a0"; }
 
 /*# sourceMappingURL=main.css.map */
+
+/*这里是活动拉取页。*/
+.hander_nav .hander_nav_li{
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  line-height: 60px;
+  margin-right: 20px;
+  border-top: 3px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.hander_nav .hander_nav_li img{
+  width: 16px;
+  margin-top: 20px;
+}
+.hander_nav_li_ul{
+  position: absolute;
+  padding: 5px 0 5px 20px;
+  display: none;
+  color: #636363;
+  background: #ffffff;
+  font-weight: 200;
+  border-radius: 1%;
+}
+.hander_nav_li_ul li{
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+}
